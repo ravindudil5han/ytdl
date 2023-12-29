@@ -14,7 +14,9 @@
     "url": "git+https://github.com/ravindudil5han/ytdl.git"
   },
   "keywords": [
-    "yt"
+    "yt",
+    "youtube",
+    "downloader"
   ],
   "author": "ravindudil5han",
   "license": "MIT",
