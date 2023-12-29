@@ -1,5 +1,5 @@
 const ytd = require('./main');
-const runPythonScript = require('./non-main');
+
 
 
 const url = 'https://youtu.be/AWItYh5hqqo?si=vS7AoYBJyoBn6vre';
