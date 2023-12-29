@@ -1,0 +1,28 @@
+{
+  "name": "ytdl",
+  "version": "1.0.0",
+  "description": "this module act with pytube base",
+  "main": "main.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ravindudil5han/ytdl.git"
+  },
+  "keywords": [
+    "yt"
+  ],
+  "author": "ravindudil5han",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ravindudil5han/ytdl/issues"
+  },
+  "homepage": "https://github.com/ravindudil5han/ytdl#readme",
+  "dependencies": {
+    "child_process": "^1.0.2"
+  }
+}
