@@ -58,7 +58,7 @@ ytd(url)
 Clone the repository and install dependencies:
 
 ```bash
-git clone [https://github.com/ravindudil5han/ytdl.git](https://github.com/ravindudil5han/ytdl.git)
+git clone https://github.com/ravindudil5han/ytdl.git
 cd ytdl
 npm install
 ```
