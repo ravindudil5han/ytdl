@@ -1,6 +1,6 @@
-const ytd = require('./main');
+//const ytd = require('./main');
 
-
+const ytd = require('./non-main.js');
 
 const url = 'https://youtu.be/AWItYh5hqqo?si=vS7AoYBJyoBn6vre';
 

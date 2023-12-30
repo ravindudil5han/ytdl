@@ -1,4 +1,4 @@
-from downloader.__main__ import YouTube
+from pytube import YouTube
 import sys
 import json
 from datetime import datetime
@@ -36,7 +36,8 @@ if __name__ == "__main__":
         sys.exit(1)
 
     video_url = sys.argv[1]
-    result = get_video_info(video_url)
-
-    # Use the custom serialization function for datetime objects
-    print(json.dumps(result, default=serialize_datetime))
+    try:
+        result = get_video_info(video_url)
+        print(json.dumps(result, default=serialize_datetime))
+    except Exception as e:
+        print(f"Error: {str(e)}")

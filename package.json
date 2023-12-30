@@ -14,9 +14,7 @@
     "url": "git+https://github.com/ravindudil5han/ytdl.git"
   },
   "keywords": [
-    "yt",
-    "youtube",
-    "downloader"
+    "yt"
   ],
   "author": "ravindudil5han",
   "license": "MIT",
@@ -25,6 +23,7 @@
   },
   "homepage": "https://github.com/ravindudil5han/ytdl#readme",
   "dependencies": {
-    "child_process": "^1.0.2"
+    "child_process": "^1.0.2",
+    "fs": "^0.0.1-security"
   }
 }

@@ -9,11 +9,11 @@ __license__ = "The Unlicense (Unlicense)"
 __js__ = None
 __js_url__ = None
 
-from downloader.version import __version__
-from downloader.streams import Stream
-from downloader.captions import Caption
-from downloader.query import CaptionQuery, StreamQuery
-from downloader.__main__ import YouTube
-from downloader.contrib.playlist import Playlist
-from downloader.contrib.channel import Channel
-from downloader.contrib.search import Search
+from .version import __version__
+from .streams import Stream
+from .captions import Caption
+from .query import CaptionQuery, StreamQuery
+from .__main__ import YouTube
+from .contrib.playlist import Playlist
+from .contrib.channel import Channel
+from .contrib.search import Search
